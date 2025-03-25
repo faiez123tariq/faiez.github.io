@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Your Name</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="about">
+        <section class="about-section">
+            <div class="about-image">
+                <img src="images/profile.jpg" alt="Your Name">
+            </div>
+            <div class="about-content">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p class="subtitle">Get to know me better</p>
+                
+                <div class="about-tabs">
+                    <button class="tab-btn active" data-tab="skills">Skills</button>
+                    <button class="tab-btn" data-tab="education">Education</button>
+                    <button class="tab-btn" data-tab="experience">Experience</button>
+                </div>
+                
+                <div class="tab-content active" id="skills">
+                    <div class="skills-container">
+                        <div class="skill">
+                            <h3>Web Development</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>UI/UX Design</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h3>JavaScript</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Master's in Computer Science</h3>
+                            <p class="timeline-date">2020 - 2022</p>
+                            <p>FAST NUCES, Faisalabad</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Bachelor's in Information Technology</h3>
+                            <p class="timeline-date">2016 - 2020</p>
+                            <p>Punjab College, Lahore</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>Frontend Developer</h3>
+                            <p class="timeline-date">2021 - Present</p>
+                            <p>BrickClay, Pakistan</p>
+                            <ul class="timeline-description">
+                                <li>Developed responsive web applications</li>
+                                <li>Collaborated with design team</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Web Design Intern</h3>
+                            <p class="timeline-date">2019 - 2020</p>
+                            <p>BrickClay, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Faiez Tariq. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/about.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
